@@ -18,7 +18,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class SimpleCache {
 
-    @Autowired
+//    @Autowired
     private SimpleDataMapper simpleDataMapper;
 
     private Map<String,String> simpleCacheMap = new ConcurrentHashMap<String, String>();
